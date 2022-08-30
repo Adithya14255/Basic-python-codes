@@ -1,0 +1,9 @@
+a=input("enter string")
+b=c=0
+for i in a:
+    if i.isalpha():
+        b+=1
+    elif i.isnumeric():
+        c+=1
+print("no. of letters",b)
+print("no. of numbers",c)
