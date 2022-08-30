@@ -1,0 +1,4 @@
+a,b=int(input("enter the upper and lower limits:")
+for i in range(a,b):
+    if i%5==0 and i%7==0:
+        print(i)
