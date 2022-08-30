@@ -1,0 +1,4 @@
+a=float(input("enter dogs age in human years:"))
+b=a-2
+c=21+b*4
+print("dog's age in dog years=",c)
